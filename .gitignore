@@ -1,0 +1,21 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore override files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+terra-key-ec2.pub
+terra-key-ec2
+
